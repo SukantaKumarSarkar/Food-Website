@@ -1,3 +1,67 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+span {
+    color: hsl(221, 97%, 56%);
+}
+
+.flexible {
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.half-width {
+    width: 50%;
+    padding: 10%;
+}
+
+p {
+    padding-bottom: 20px;
+}
+
+.half-width2 img {
+    width: 100%;
+    float: right;
+    padding-top: 10%;
+}
+
+img {
+    padding-left: 50%;
+    padding-right: 5%;
+}
+
+.button {
+    text-decoration: none;
+    color: white;
+    padding-bottom: 50px;
+    padding: 10px;
+    background-image: linear-gradient(rgb(51, 51, 252), rgb(52, 233, 233));
+    border-radius: 5em;
+    font-weight: 600;
+}
+
+.half-width3 img {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.about {
+    text-align: right justify;
+    padding-left: 13%;
+}
+
+.about h1 {
+    text-align: center;
+}
+
+.bg-img {
+    background-image: url(image/shapes/Frame\ 57.jpg);
+    background-size: 100%;
 }
